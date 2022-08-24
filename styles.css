@@ -1,0 +1,128 @@
+ul {
+    display:flex;
+    justify-content: space-between;
+}
+
+a:link, a:visited {
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(141,180,69);
+  }
+  
+  li {
+    float: left;
+  }
+
+  div.date_thingy{
+    position: fixed;
+    bottom: 352;
+
+  }
+
+  div.Student_name {
+    position: fixed;
+    bottom: 445;
+    right: 330;
+    width: 470px;
+    height: 100px;
+    border: 3px solid rgb(141,180,69) ;
+  }
+
+  #download {  
+    position: fixed;
+    width: 300px;
+    height: 45px;
+    bottom: 20;
+    right: 15;
+    height: 60;   
+    border: solid rgb(141, 180, 69); 
+    font-size:14px;
+    font-weight:700;
+}
+
+  div.Select_date {
+    position: fixed;
+    bottom: 350;
+    right: 330;
+    width: 470px;
+    height: 80px;
+    border: 3px solid rgb(141,180,69);
+  }
+
+  div.Days_attended_total_annual {
+    position: fixed;
+    bottom: 321;
+    right: 10;
+    width: 300px;
+    border: 3px solid rgb(141,180,69);
+  }
+
+  div.Out_of_Days_attended {
+    position: fixed;
+    bottom: 100;
+    right: 10;
+    width: 300px;
+    border: 3px solid rgb(141,180,69);
+  }
+
+
+  div.Leave_Letter_1 {
+    position: fixed;
+    bottom: 20;
+    right: 830px;
+    width: 520px;
+    height: 320;
+    border: 3px solid rgb(141,180,69);
+  }
+
+  div.Leave_Letter_2 {
+    position: fixed;
+    bottom: 20;
+    right: 325px;
+    width: 490px;
+    height: 320;
+    border: 3px solid rgb(141,180,69);
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    text-emphasis-color: rgb(0, 2, 0);
+  }
+  
+  body {
+    background-color: rgba(255, 255, 255);
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', initial;
+    font-size: 21px;}
